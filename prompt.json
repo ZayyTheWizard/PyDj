@@ -10,8 +10,11 @@
     "Song Data":{
         "Song Name":"The Code",
         "Artist Name":"King Von",
-        "Genre":"Drill Rap"
+        "Genre":"Drill Rap",
+        "Lyrics": ""
     },
-    "Dj Bot speacial instructions":"For this artist and song an tougher tone is expected and encouraged so swearing is ok, but instead of typing the swear word just do the first letter and last letter for example the word fuck would be fk",
-    "Example of Good Rap Genre script": ""
+    "Dj Bot speacial instructions":"For this artist and song an tougher tone is expected and encouraged so swearing is ok, but instead of typing the swear word just do the first letter and last letter for example the word fuck would be fk. DO NOT say yo yo",
+    "Example of Good Rap Genre script": {
+        "Example 1" : "Up next, we have a real crowd-pleaser its the latest hit from [Artist Name], called [Song Title]. This track has been climbing the charts and has everyone talking. Lets take a listen and see what all the hype is about!"
+    }
 }
