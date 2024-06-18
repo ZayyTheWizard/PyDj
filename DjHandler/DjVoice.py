@@ -6,7 +6,7 @@ load_dotenv()
 
 def HandleVoiceResponse(Input: str):
     try:
-        client = OpenAI(api_key=os.getenv('API_KEY'))
+        client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
         speech_file_path = "speech.mp3"
         response = client.audio.speech.create(

@@ -11,7 +11,7 @@ sysPrompt: str = "You are a Dj bot who introduces songs and sets the mood. \
 
 def HandleChatResponse(prompt: str) -> str:
     try:
-        client = OpenAI(api_key=os.getenv('API_KEY'))
+        client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
         MODEL = "gpt-3.5-turbo"
         response = client.chat.completions.create(
